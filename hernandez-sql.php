@@ -17,7 +17,7 @@ if ($conn)
         echo "You are connected! ", $db_name;
 echo "<p>";
 
-$sql = "SELECT * FROM `employees` limit 50";
+$sql = "SELECT * FROM `employees` limit 60";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
